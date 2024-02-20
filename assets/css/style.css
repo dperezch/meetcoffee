@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* HEADER */
+header {
+  background-image: url(../img/bg-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2em;
+  padding-bottom: 7em;
+}
+
+header h1 {
+  font-weight: bolder;
+  font-size: 3.5em;
+}
+
+header h2 {
+  font-weight: lighter;
+  font-size: 2em;
+}
+
+.texto-hero {
+  color: white;
+  text-align: right;
+  margin-right: 10rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* SECTION / DONDE NOS JUNTAMOS */
+.section-1 {
+  margin: 8em;
+  text-align: center;
+}
+
+/* SECTION / PROXIMA CHARLA */
+#Proxima-Charla {
+  background: #a4452c;
+  padding: 100px;
+  color: white;
+}
+#Proxima-Charla .wrapper {
+  width: 800px;
+  margin: auto;
+}
+
+.wrapper img {
+  width: 25%;
+}
+.wrapper .texto {
+  width: 70%;
+  margin-left: 4%;
+}
+.wrapper img,
+.texto {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 40px;
+}
+
+i {
+  font-size: 30px;
+  margin: 5px;
+}
